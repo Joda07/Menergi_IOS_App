@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EA91CF23ECB578003B7FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA91CE23ECB578003B7FEB /* AppDelegate.swift */; };
+		18EA91D123ECB578003B7FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA91D023ECB578003B7FEB /* ViewController.swift */; };
+		18EA91D423ECB578003B7FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EA91D223ECB578003B7FEB /* Main.storyboard */; };
+		18EA91D623ECB57A003B7FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EA91D523ECB57A003B7FEB /* Assets.xcassets */; };
+		18EA91D923ECB57A003B7FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EA91D723ECB57A003B7FEB /* LaunchScreen.storyboard */; };
+		18EA91E423ECB57A003B7FEB /* MenergiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA91E323ECB57A003B7FEB /* MenergiTests.swift */; };
+		18EA91EF23ECB57A003B7FEB /* MenergiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA91EE23ECB57A003B7FEB /* MenergiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18EA91E023ECB57A003B7FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EA91C323ECB578003B7FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EA91CA23ECB578003B7FEB;
+			remoteInfo = Menergi;
+		};
+		18EA91EB23ECB57A003B7FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EA91C323ECB578003B7FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EA91CA23ECB578003B7FEB;
+			remoteInfo = Menergi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18EA91CB23ECB578003B7FEB /* Menergi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Menergi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EA91CE23ECB578003B7FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18EA91D023ECB578003B7FEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18EA91D323ECB578003B7FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18EA91D523ECB57A003B7FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EA91D823ECB57A003B7FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EA91DA23ECB57A003B7FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EA91DF23ECB57A003B7FEB /* MenergiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenergiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EA91E323ECB57A003B7FEB /* MenergiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenergiTests.swift; sourceTree = "<group>"; };
+		18EA91E523ECB57A003B7FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EA91EA23ECB57A003B7FEB /* MenergiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenergiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EA91EE23ECB57A003B7FEB /* MenergiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenergiUITests.swift; sourceTree = "<group>"; };
+		18EA91F023ECB57A003B7FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EA91C823ECB578003B7FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EA91DC23ECB57A003B7FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EA91E723ECB57A003B7FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EA91C223ECB578003B7FEB = {
+			isa = PBXGroup;
+			children = (
+				18EA91CD23ECB578003B7FEB /* Menergi */,
+				18EA91E223ECB57A003B7FEB /* MenergiTests */,
+				18EA91ED23ECB57A003B7FEB /* MenergiUITests */,
+				18EA91CC23ECB578003B7FEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EA91CC23ECB578003B7FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EA91CB23ECB578003B7FEB /* Menergi.app */,
+				18EA91DF23ECB57A003B7FEB /* MenergiTests.xctest */,
+				18EA91EA23ECB57A003B7FEB /* MenergiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EA91CD23ECB578003B7FEB /* Menergi */ = {
+			isa = PBXGroup;
+			children = (
+				18EA91CE23ECB578003B7FEB /* AppDelegate.swift */,
+				18EA91D023ECB578003B7FEB /* ViewController.swift */,
+				18EA91D223ECB578003B7FEB /* Main.storyboard */,
+				18EA91D523ECB57A003B7FEB /* Assets.xcassets */,
+				18EA91D723ECB57A003B7FEB /* LaunchScreen.storyboard */,
+				18EA91DA23ECB57A003B7FEB /* Info.plist */,
+			);
+			path = Menergi;
+			sourceTree = "<group>";
+		};
+		18EA91E223ECB57A003B7FEB /* MenergiTests */ = {
+			isa = PBXGroup;
+			children = (
+				18EA91E323ECB57A003B7FEB /* MenergiTests.swift */,
+				18EA91E523ECB57A003B7FEB /* Info.plist */,
+			);
+			path = MenergiTests;
+			sourceTree = "<group>";
+		};
+		18EA91ED23ECB57A003B7FEB /* MenergiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18EA91EE23ECB57A003B7FEB /* MenergiUITests.swift */,
+				18EA91F023ECB57A003B7FEB /* Info.plist */,
+			);
+			path = MenergiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EA91CA23ECB578003B7FEB /* Menergi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EA91F323ECB57A003B7FEB /* Build configuration list for PBXNativeTarget "Menergi" */;
+			buildPhases = (
+				18EA91C723ECB578003B7FEB /* Sources */,
+				18EA91C823ECB578003B7FEB /* Frameworks */,
+				18EA91C923ECB578003B7FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Menergi;
+			productName = Menergi;
+			productReference = 18EA91CB23ECB578003B7FEB /* Menergi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18EA91DE23ECB57A003B7FEB /* MenergiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EA91F623ECB57A003B7FEB /* Build configuration list for PBXNativeTarget "MenergiTests" */;
+			buildPhases = (
+				18EA91DB23ECB57A003B7FEB /* Sources */,
+				18EA91DC23ECB57A003B7FEB /* Frameworks */,
+				18EA91DD23ECB57A003B7FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EA91E123ECB57A003B7FEB /* PBXTargetDependency */,
+			);
+			name = MenergiTests;
+			productName = MenergiTests;
+			productReference = 18EA91DF23ECB57A003B7FEB /* MenergiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18EA91E923ECB57A003B7FEB /* MenergiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EA91F923ECB57A003B7FEB /* Build configuration list for PBXNativeTarget "MenergiUITests" */;
+			buildPhases = (
+				18EA91E623ECB57A003B7FEB /* Sources */,
+				18EA91E723ECB57A003B7FEB /* Frameworks */,
+				18EA91E823ECB57A003B7FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EA91EC23ECB57A003B7FEB /* PBXTargetDependency */,
+			);
+			name = MenergiUITests;
+			productName = MenergiUITests;
+			productReference = 18EA91EA23ECB57A003B7FEB /* MenergiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EA91C323ECB578003B7FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = AAMU;
+				TargetAttributes = {
+					18EA91CA23ECB578003B7FEB = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					18EA91DE23ECB57A003B7FEB = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 18EA91CA23ECB578003B7FEB;
+					};
+					18EA91E923ECB57A003B7FEB = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 18EA91CA23ECB578003B7FEB;
+					};
+				};
+			};
+			buildConfigurationList = 18EA91C623ECB578003B7FEB /* Build configuration list for PBXProject "Menergi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EA91C223ECB578003B7FEB;
+			productRefGroup = 18EA91CC23ECB578003B7FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EA91CA23ECB578003B7FEB /* Menergi */,
+				18EA91DE23ECB57A003B7FEB /* MenergiTests */,
+				18EA91E923ECB57A003B7FEB /* MenergiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EA91C923ECB578003B7FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EA91D923ECB57A003B7FEB /* LaunchScreen.storyboard in Resources */,
+				18EA91D623ECB57A003B7FEB /* Assets.xcassets in Resources */,
+				18EA91D423ECB578003B7FEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EA91DD23ECB57A003B7FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EA91E823ECB57A003B7FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EA91C723ECB578003B7FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EA91D123ECB578003B7FEB /* ViewController.swift in Sources */,
+				18EA91CF23ECB578003B7FEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EA91DB23ECB57A003B7FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EA91E423ECB57A003B7FEB /* MenergiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EA91E623ECB57A003B7FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EA91EF23ECB57A003B7FEB /* MenergiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18EA91E123ECB57A003B7FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EA91CA23ECB578003B7FEB /* Menergi */;
+			targetProxy = 18EA91E023ECB57A003B7FEB /* PBXContainerItemProxy */;
+		};
+		18EA91EC23ECB57A003B7FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EA91CA23ECB578003B7FEB /* Menergi */;
+			targetProxy = 18EA91EB23ECB57A003B7FEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18EA91D223ECB578003B7FEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EA91D323ECB578003B7FEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18EA91D723ECB57A003B7FEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EA91D823ECB57A003B7FEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EA91F123ECB57A003B7FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18EA91F223ECB57A003B7FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EA91F423ECB57A003B7FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Menergi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.aamu.Menergi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18EA91F523ECB57A003B7FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Menergi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.aamu.Menergi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18EA91F723ECB57A003B7FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenergiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.aamu.MenergiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Menergi.app/Menergi";
+			};
+			name = Debug;
+		};
+		18EA91F823ECB57A003B7FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenergiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.aamu.MenergiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Menergi.app/Menergi";
+			};
+			name = Release;
+		};
+		18EA91FA23ECB57A003B7FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenergiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.aamu.MenergiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Menergi;
+			};
+			name = Debug;
+		};
+		18EA91FB23ECB57A003B7FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenergiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.aamu.MenergiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Menergi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EA91C623ECB578003B7FEB /* Build configuration list for PBXProject "Menergi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EA91F123ECB57A003B7FEB /* Debug */,
+				18EA91F223ECB57A003B7FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EA91F323ECB57A003B7FEB /* Build configuration list for PBXNativeTarget "Menergi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EA91F423ECB57A003B7FEB /* Debug */,
+				18EA91F523ECB57A003B7FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EA91F623ECB57A003B7FEB /* Build configuration list for PBXNativeTarget "MenergiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EA91F723ECB57A003B7FEB /* Debug */,
+				18EA91F823ECB57A003B7FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EA91F923ECB57A003B7FEB /* Build configuration list for PBXNativeTarget "MenergiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EA91FA23ECB57A003B7FEB /* Debug */,
+				18EA91FB23ECB57A003B7FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EA91C323ECB578003B7FEB /* Project object */;
+}

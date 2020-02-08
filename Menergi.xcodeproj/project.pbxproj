@@ -14,6 +14,7 @@
 		18EA91D923ECB57A003B7FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EA91D723ECB57A003B7FEB /* LaunchScreen.storyboard */; };
 		18EA91E423ECB57A003B7FEB /* MenergiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA91E323ECB57A003B7FEB /* MenergiTests.swift */; };
 		18EA91EF23ECB57A003B7FEB /* MenergiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA91EE23ECB57A003B7FEB /* MenergiUITests.swift */; };
+		18EA920323EE5891003B7FEB /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA920223EE5891003B7FEB /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		18EA91EA23ECB57A003B7FEB /* MenergiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenergiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EA91EE23ECB57A003B7FEB /* MenergiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenergiUITests.swift; sourceTree = "<group>"; };
 		18EA91F023ECB57A003B7FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EA920223EE5891003B7FEB /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeScreen.swift; path = Assets.xcassets/HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				18EA91D523ECB57A003B7FEB /* Assets.xcassets */,
 				18EA91D723ECB57A003B7FEB /* LaunchScreen.storyboard */,
 				18EA91DA23ECB57A003B7FEB /* Info.plist */,
+				18EA920223EE5891003B7FEB /* HomeScreen.swift */,
 			);
 			path = Menergi;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				18EA91D123ECB578003B7FEB /* ViewController.swift in Sources */,
 				18EA91CF23ECB578003B7FEB /* AppDelegate.swift in Sources */,
+				18EA920323EE5891003B7FEB /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
